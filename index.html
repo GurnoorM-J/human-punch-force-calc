@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punch Force Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Human Punch Force Calculator</h1>
+
+    <div class="form-container">
+      <h2>Enter Punch Details</h2>
+      <label for="mass">Mass of Punch (kg):</label>
+      <input type="number" id="mass" placeholder="Enter mass" />
+      <label for="velocity">Velocity of Punch (m/s):</label>
+      <input type="number" id="velocity" placeholder="Enter velocity" />
+      <label for="distance">Distance Traveled (m):</label>
+      <input type="number" id="distance" placeholder="Enter distance" />
+      <button id="calculateBtn">Calculate Punch Force</button>
+    </div>
+
+    <div class="result-container">
+      <h2>Result:</h2>
+      <p id="result">Punch Force: ____ N</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

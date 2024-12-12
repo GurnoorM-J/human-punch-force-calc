@@ -1,0 +1,81 @@
+/* Set a background image for the webpage */
+html {
+  background: url('istockphoto-887960550-612x612.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Body styling */
+body {
+ 
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  text-align: center;
+  padding: 20px;
+  color: rgb(240, 8, 8);
+}
+
+/* Header styling */
+h1 {
+  font-size: 40px;
+  color: #f70909;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+/* Styling for the form */
+.form-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 15px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ffcc00;
+}
+
+button {
+  background-color: #e6345b;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+#result {
+  font-size: 24px;
+  color: #ffcc00;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
